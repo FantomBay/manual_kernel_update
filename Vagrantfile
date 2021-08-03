@@ -15,6 +15,7 @@ MACHINES = {
             }
 }
 
+
 Vagrant.configure("2") do |config|
   MACHINES.each do |boxname, boxconfig|
     # Disable shared folders
